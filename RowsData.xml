@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<rows xmlns="http://www.contoso.com/books">  
+  <row>  
+    <title>Pride And Prejudice</title>  
+    <price>29.25</price>  
+	<country>Germany</country>
+	<address>Street 44 La Florida</address>
+  </row>
+  <row>  
+    <title>Pride And Prejudice</title>  
+    <price>29.25</price>  
+	<country>Germany</country>
+	<address>Street 44 La Florida</address>
+  </row>
+  <row>  
+    <title>Pride And Prejudice</title>  
+    <price>29.25</price>  
+	<country>Germany</country>
+	<address>Street 44 La Florida</address>
+	<optional>This is optional</optional>
+  </row>
+    
+</rows>

@@ -23,7 +23,7 @@ namespace XMLTest
             // XmlTextReader Properties Test
             //
 
-            using (XmlTextReader textReader = new XmlTextReader("BooksData.xml"))
+            using (XmlTextReader textReader = new XmlTextReader("C:\\temp\\RowsData.xml"))
             {
                 textReader.Read();
                 //If the node has value
@@ -49,7 +49,7 @@ namespace XMLTest
             Console.WriteLine("XmlTextReader Element and attribute test");
             Console.WriteLine("===================");
 
-            using (XmlTextReader reader = new XmlTextReader("C:\\temp\\BooksData.xml"))
+            using (XmlTextReader reader = new XmlTextReader("C:\\temp\\RowsData.xml"))
             {
                 while (reader.Read())
                 {
@@ -118,7 +118,7 @@ namespace XMLTest
 
             try
             {
-                reader = XmlReader.Create("BooksData.xml", settings);
+                reader = XmlReader.Create("C:\\temp\\RowsData.xml", settings);
             }
             catch (System.IO.FileNotFoundException)
             {
@@ -189,7 +189,7 @@ namespace XMLTest
             XmlSchema schema;
             try
             {
-                schema = xs.Add("http://www.contoso.com/books", "BooksData.xsd");
+                schema = xs.Add("http://www.contoso.com/books", "C:\\temp\\RowsData.xsd");
             }
             catch (System.IO.FileNotFoundException)
             {
